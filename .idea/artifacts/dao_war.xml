@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dao:war">
+    <output-path>$PROJECT_DIR$/dao/target</output-path>
+    <root id="archive" name="dao.war">
+      <element id="artifact" artifact-name="dao:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="model" />
+          <element id="module-output" name="commonutil" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
